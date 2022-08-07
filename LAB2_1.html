@@ -1,0 +1,99 @@
+<DOCTYPE.html>
+    <head>
+        <meta charset='utf-8'>
+        <title>LAb2</title>
+    </head>
+    <body>
+        <form action="">
+            1.สาขาวิชา :
+    <input type="text" placeholder="ชื่อเต็ม/ย่อของสาขาวิชา" pattern="[a-zA-Z]+" size="20" maxlength="100" required><br><br>
+            2.จำนวนเงินที่จะโอน
+    <input type="text" placeholder="จำนวนเงินที่จะโอน" pattern="\d+" size="20" maxlength="100" required> <br><br>
+            3.อาหารที่ชื่นชอบ 5 ชนิดจากมากไปน้อย : <br><br>
+    
+            <label for="food"> ชนิดที่ 1 แกงไก่ : 
+    <input type="radio" name="themost" value="themost1" required>มากสุด
+    
+    <input type="radio" name="very" value="very1" required>มาก
+
+    <input type="radio" name="moderate" value="moderate1" required>ปกติ
+    
+    <input type="radio" name="less" value="less1" required>น้อย
+    
+    <input type="radio" name="minimal" value="minimal1" required>น้อยมาก</label> <br><br>
+
+    <label for="food"> ชนิดที่ 2 กะเพราหมู : 
+    <input type="radio" name="themost" value="themost1" required>มากสุด
+    
+    <input type="radio" name="very" value="very1" required>มาก
+
+    <input type="radio" name="moderate" value="moderate1" required>ปกติ
+    
+    <input type="radio" name="less" value="less1" required>น้อย
+    
+    <input type="radio" name="minimal" value="minimal1" required>น้อยมาก</label> <br><br>
+
+    <label for="food">ชนิดที่ 3 ต้มจืด:
+    <input type="radio" name="themost" value="themost1" required>มากสุด
+    
+    <input type="radio" name="very" value="very1" required>มาก
+
+    <input type="radio" name="moderate" value="moderate1" required>ปกติ
+    
+    <input type="radio" name="less" value="less1" required>น้อย
+    
+    <input type="radio" name="minimal" value="minimal1" required>น้อยมาก</label> <br><br>
+
+    <label for="food">ชนิดที่ 4 ต้มข่าไก่:
+    <input type="radio" name="themost" value="themost1" required>มากสุด
+    
+    <input type="radio" name="very" value="very1" required>มาก
+
+    <input type="radio" name="moderate" value="moderate1" required>ปกติ
+    
+    <input type="radio" name="less" value="less1" required>น้อย
+    
+    <input type="radio" name="minimal" value="minimal1" required>น้อยมาก</label> <br><br>
+    <label for="food">ชนิดที่ 5 แกงเขียวหวาน:
+    <input type="radio" name="themost" value="themost1" required>มากสุด
+    
+    <input type="radio" name="very" value="very1" required>มาก
+
+    <input type="radio" name="moderate" value="moderate1" required>ปกติ
+    
+    <input type="radio" name="less" value="less1" required>น้อย
+    
+    <input type="radio" name="minimal" value="minimal1" required>น้อยมาก</label> <br><br>
+    4.ค่าไฟฟ้า 3 เดือนที่ผ่านมา
+    <input type="text" placeholder="ค่าไฟฟ้า" pattern="\d+" size="20" maxlength="100" required> <br><br>
+
+    5.รหัสบัตรประชาชน
+    <input type="text" placeholder="x-xxxx-xxxxx-xx-x" pattern="\d{13}" size="20" maxlength="100" required><br><br>
+
+    <label for="book">6.ความพึงพอใจของหนังสือเล่มนี้ : <br><br>
+    <input type="radio" name="like" value="like1" size="20" maxlength="100" required>พึงพอใจ
+    <input type="radio" name="dislike" value="dislike1" size="20" maxlength="100" required> ไม่พึงพอใจ
+    </label><br><br>
+
+    7.อาการป่วย :
+    <textarea cols="50" rows="10"></textarea> <br><br>
+
+    8.ในช่วง 3 เดือนที่ผ่านมา เคยได้รับวัคซีนหรือไม่ :
+    <input type="radio" name="vaccine" value="vaccine1" size="20" maxlength="100" required>
+    <label for="vaccine">เคยได้รับ</label>
+    <input type="radio" name="novaccine" value="novaccine1" size="20" maxlength="100" required>
+    <label for="vaccine">ไม่เคยได้รับ</label><br><br>
+
+    9. รหัสผ่าน 
+    <input type="password" size="20" maxlength="100" required><br><br>
+
+    10.เวลาเริ่มเข้าเรียนเเละสิ้นสุดการเรียน
+    <input type="time"> / <input type="time" size="20" maxlength="100" required>  <br><br>
+
+    11.วันเวลาที่ต้องไปพบเเพทย์
+    <input type="datetime-local" size="20" maxlength="100" required>
+
+
+    <p><input type="submit" value="Submit">
+        </form>
+    </body>
